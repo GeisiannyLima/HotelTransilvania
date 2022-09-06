@@ -32,6 +32,7 @@ elif(opcao==2):
     data_nasc=str(input('Informe a data de nascimento(AAAA-mm-dd) do hóspede: '))
     #instanciando classe Hospede, esse é o momento que inicializamos os atrbutos do 
     #self
+    
     hos1=Hospede(nome,email,cpf,rg,data_nasc)
     #depois chama o método para inserir os dados enviados acima
     hos1.cadastrar_hospede()
